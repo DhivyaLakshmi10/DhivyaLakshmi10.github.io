@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dhivya's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Dhivya Lakshmi</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">software dev</p>
+            <img src="img/me.jpeg" alt="a picture of me smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Student</h3>
+                    <p>I am currently a student at PSG Institute of Technology,Coimbatore pursuing Integrated MSc Software Systems.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Design+Development</h3>
+                    <p>My major areas of interest are: UI/UX Design and Frontend Development. Always striving to learn more.</p>
+                </div> <!-- / service -->
+                <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer</p>
+           
+           <div class="about-me__body">
+               <p>Results-driven software engineer with experience in developing and implementing software solutions. Proficient in multiple programming languages including Python, Java, C++ and C. Familiar with Flask and Django . Adept at collaborating with cross-functional teams and delivering high-quality products on time and under budget. Seeking a challenging software development role where I can utilize my technical skills and contribute to the success of a dynamic organization.</p>
+           </div>
+           
+           <img src="img/gina-mangiante-ZHkIJli_8_g-unsplash.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfoilo-item2.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item5.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+        </section>
+        
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:lakshmi2003dhivya@gmail.com" class="footer__link">lakshmi2003dhivya@gmail.com</a>
+            <ul class="social-list">
+               <li class="social-list__item">
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/DhivyaLakshmi10">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dhivya-lakshmi-s-215a8122b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
